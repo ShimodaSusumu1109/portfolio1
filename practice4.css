@@ -1,0 +1,150 @@
+.wrapper{
+  width: 960px;
+  min-width: 260px;
+  margin: auto;
+}
+.head{
+display: flex;
+margin-top: 30px;
+margin-bottom: 30px;
+padding: 0%;
+border-top: 13px solid beige;
+}
+.left{
+flex: 2;
+display: flex;
+align-items: center;
+}
+span{
+  margin-left: 30px;
+  font-size: 26px;
+  text-shadow:1px 2px 3px black;
+}
+.right{
+  flex: 1;
+  margin-right: 30px;
+}
+#tel{
+  font-size: 24px;
+
+}
+#open{
+  border: 2px solid gray;
+  border-radius: 10%;
+  text-align: center;
+  width: 200px;
+}
+.navi{
+  background-color: aquamarine;
+
+}
+.navi ul{
+  list-style-type: none;
+}
+.navi li {
+  width: 180px;
+  text-align:center;
+  background-color: aquamarine;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  margin-right:2px;
+}
+.navi li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  /* padding: 20px; */
+}
+.navi a{
+}
+.navi a:hover{
+  color: #000;
+  background-color: #c9c9c9;
+}
+section{
+  clear: both;
+}
+.right1{
+float: right;
+margin: 10px;
+}
+.main{
+  border: 2px solid black;
+  background-color: azure;
+}
+.main h2{
+  font-weight: bold;
+  border-bottom: 5px solid greenyellow;
+  text-align: center;
+  padding-bottom: 10px;
+  text-shadow: 1px 2px 3px black;
+}
+.row{
+  display: flex;
+  border-bottom: 2px solid black;
+  justify-content: center;
+}
+.row h3{
+  font-size: 16px;
+  margin-right: 20px;
+
+}
+.row p{
+  line-height: 30px;
+}
+.left2{
+float: left;
+margin: 10px;
+flex-flow: column;
+height: 500px;
+width: 220px;
+}
+.left2 h3{
+  text-align: center;
+margin-top: 0;
+padding-top: 10px;
+padding-bottom: 10px;
+  background-color: greenyellow;
+  border-radius: 10%;
+  border: 2px ;
+}
+.left2 li{
+  border-bottom: 2px solid black;
+}
+.left2 li a{
+  text-decoration: none;
+}
+.left2 a{
+  font-size: 20px;
+  line-height: 40px;
+}
+.top{
+  background-color: aliceblue;
+  border: 2px solid skyblue;
+  border-radius: 5%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+
+}
+.mid{
+  background-color: aliceblue;
+  border: 2px solid skyblue;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
+.bot{
+  background-color: aliceblue;
+border: 2px solid skyblue;
+border-radius: 5%;
+
+}
+.last{
+  clear: both;
+}
+.foot{
+  text-align: center;
+}
+.foot p{
+  line-height: 30px;
+}
